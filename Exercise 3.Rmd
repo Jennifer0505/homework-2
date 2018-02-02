@@ -93,7 +93,7 @@ Hence plot the function $f(x)$ for $-3 < x <3$.
 tmpFn <- function(xVec){ifelse(xVec<0, xVec^2+2*xVec+3,ifelse(xVec<2, xVec+3, xVec^2+4*xVec-7))}
 
 n <- seq(-3, 3, len=100)
-plot(n, tmpFn(tmp), type = "l")
+plot(n, tmpFn(n), type = "l")
 
 ```
 
